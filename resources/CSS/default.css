@@ -1,0 +1,14 @@
+.button{
+    -fx-base: white
+}
+.button:hover{
+    -fx-effect: dropshadow(three-pass-box, #72b9da, 10.0, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+.menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing {
+    -fx-background-color: #00ffff;
+    -fx-opacity: 0.6;
+    -fx-effect: dropshadow(three-pass-box, #72b9da, 10.0, 0, 0, 0);
+    -fx-cursor: hand;
+}
